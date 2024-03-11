@@ -1,5 +1,6 @@
 # React App Demonstrating a Loading Skeleton that previews before browser loads all data.See png's: app-full & app-skeleton for preview.
 
+React, Javascript, CSS
 
 Getting Started with Create React App
 
