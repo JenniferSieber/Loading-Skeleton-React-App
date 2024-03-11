@@ -1,0 +1,28 @@
+.skeleton {
+  border-radius: 2px;
+  display: inline-block;
+  line-height: 100%;
+  width: 100%;
+  background-size: 1000px 1000px;
+  background-image: linear-gradient(
+    100deg,
+    rgb(232, 232, 232) 20%,
+    rgb(165, 216, 250) 40%,
+    rgb(232, 232, 232) 60%
+  );
+  animation: placeholderShimmer 1.5s linear infinite forwards;
+}
+
+/* Skeleton animation*/
+@keyframes placeholderShimmer {
+  0% {
+    background-position: -500px 0;
+  }
+  100% {
+    background-position: 500px 0;
+  }
+}
+
+.skeleton.circle {
+  border-radius: 50%;
+}
